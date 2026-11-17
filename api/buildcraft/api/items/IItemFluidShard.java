@@ -1,11 +1,10 @@
 package buildcraft.api.items;
 
+import net.minecraft.core.NonNullList;
+import net.minecraft.world.item.ItemStack;
+import net.neoforged.neoforge.fluids.FluidStack;
+
 import javax.annotation.Nullable;
-
-import net.minecraft.item.ItemStack;
-import net.minecraft.util.NonNullList;
-
-import net.minecraftforge.fluids.FluidStack;
 
 public interface IItemFluidShard {
     void addFluidDrops(NonNullList<ItemStack> toDrop, @Nullable FluidStack fluid);
