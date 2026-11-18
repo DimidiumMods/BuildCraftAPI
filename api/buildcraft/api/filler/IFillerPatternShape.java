@@ -6,12 +6,12 @@ package buildcraft.api.filler;
 
 import javax.annotation.Nullable;
 
-import net.minecraft.world.World;
+import net.minecraft.world.level.Level;
 
 import buildcraft.api.statements.IStatementParameter;
 import buildcraft.api.statements.containers.IFillerStatementContainer;
 
-/** {@code IFillerPattern} independent from {@link World} */
+/** {@code IFillerPattern} independent from {@link Level} */
 public interface IFillerPatternShape extends IFillerPattern {
     /**
      * @param filledTemplate empty template

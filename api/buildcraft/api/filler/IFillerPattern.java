@@ -6,7 +6,7 @@ package buildcraft.api.filler;
 
 import javax.annotation.Nullable;
 
-import net.minecraft.util.math.BlockPos;
+import net.minecraft.core.BlockPos;
 
 import buildcraft.api.core.render.ISprite;
 import buildcraft.api.statements.IStatement;
